@@ -107,13 +107,13 @@ public class Mainwindow extends javax.swing.JFrame {
         try {
             String shout = tfShout.getText();
             shoutService.addShout(shout);
-            tfShout.setText("1111");
+            tfShout.setText("shout");
     }//GEN-LAST:event_jButton1ActionPerformed
     catch (Exception e) {
             e.printStackTrace();
             JOptionPane.showMessageDialog(null, "Error in shoutservice:" + e.getMessage());
         }
-        refreshShouts();
+       // refreshShouts();
     }
     private void refreshShouts() {                                         
 
