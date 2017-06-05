@@ -28,7 +28,7 @@ public class CounterEJB implements CounterEJBRemote {
     @Override
     public void registerVisit() {
         System.out.println("registerVisit()");
-        counter++;
+        
     }
 
     @Lock(READ)
